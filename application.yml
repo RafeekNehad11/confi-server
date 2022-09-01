@@ -1,0 +1,8 @@
+eureka:
+  client:
+    register-with-erueka : true
+    fetch-registry: true
+    service-url :
+      default-zone : http://locahhost:8761/eureka/
+  instance:
+    hostname: localhost
